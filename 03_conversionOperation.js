@@ -16,3 +16,21 @@ let somenum = 22;
 let inStr = String(somenum);
 console.log(inStr);
 console.log(typeof(inStr));
+
+let val = 5;
+let negval = -val;
+console.log(negval);
+
+console.log(2+2, 2-2, 2*2, 2/2, 2%2, 2**2);
+
+console.log(1 + "2");
+console.log("1" + 2);
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+console.log(true);
+console.log(+true);
+console.log(true+true);
+console.log(false+true);
+console.log(false+false);
