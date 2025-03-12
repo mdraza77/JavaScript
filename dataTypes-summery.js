@@ -27,7 +27,29 @@ const myFunction = function() {
     console.log("Hello, Raza");
 }
 
-console.log(typeof bigNumbers);
-console.log(typeof outsideTemp);
-console.log(typeof heros);
-console.log(typeof myObj);
+// console.log(typeof bigNumbers);
+// console.log(typeof outsideTemp);
+// console.log(typeof heros);
+// console.log(typeof myObj);
+
+
+// +++++++++++++++++++++++++++++++++ //
+
+// Stack (Primitive), Heap (Non-Primitive)
+let Name = "Aman Raja";
+let myname = Name;
+myname = "Md Raza";
+// console.log(Name);
+// console.log(myname);
+
+let userOne = {
+    name: "Md Raza",
+    mail: "mdraza@gmail.com",
+    age: 19,
+    gender: "male"
+}
+
+let userTwo = userOne;
+userTwo.mail = "aman@gmail.com";
+console.log(userOne.mail);
+console.log(userTwo.mail);
